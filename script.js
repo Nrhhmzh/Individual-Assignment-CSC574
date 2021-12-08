@@ -14,6 +14,7 @@ $(document).ready(function()
 
 function msg()
 {
+//     let x = document.forms["feedbackForm"]["feedback"].value;
     alert("Thank You For Your Feedback!")
 }
 
