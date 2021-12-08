@@ -187,6 +187,64 @@ footer span a:hover
 
 /* end home section styling */
 
+/* date and clock section styling */
+.clock
+{
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A569BD;
+}
+
+.datetime
+{
+    color: #ffff;
+    /* background: #A569BD; */
+    font-family: "Poppins",sans-serif;
+    width: 240px;
+    padding: 15px 10px;
+    /* border: 3px solid #E74C3C; */
+    border-radius: 5px;
+}
+
+.date
+{
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time 
+{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time span:not(:last-child)
+{
+    position: relative;
+    margin: 0 6px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.time span:last-child
+{
+    background: #ffff;
+    color: #E74C3C;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+/* end date and clock section styling */
+
 /* all similar styling code */
 section
 {
