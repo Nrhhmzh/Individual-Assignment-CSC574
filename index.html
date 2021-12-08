@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>   <!--import icon-->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> <!--for action scroll-->
 </head>
-<body>
+<body onload="initClock()">
     <!-- navbar section start -->
     <nav class="navbar">
         <div class="container">
@@ -38,6 +38,24 @@
     </section>
     <!-- home section end -->
 
+    <!-- date and clock section start -->
+    <div class="clock">
+        <div class="datetime">
+            <div class="date">
+                <span id="dayname">Day</span>
+                <span id="month">Month</span>
+                <span id="daynum">00</span>
+                <span id="year">Year</span>
+            </div>
+            <div class="time">
+                <span id="hour">00 </span>
+                <span id="minutes">: 00 </span>
+                <span id="seconds">: 00 </span>
+                <span id="period">AM</span>
+            </div>
+        </div>
+    </div>
+    <!-- date and clock section end -->
     
     <!-- profile section start -->
     <section class="profile" id="profile">
